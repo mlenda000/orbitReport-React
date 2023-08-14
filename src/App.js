@@ -13,7 +13,6 @@ function App() {
       return newSatDisplay.orbitType === currentType;
     });
     setSat(displaySats);
-    console.log(displaySats)
   }
       return (
     <div>
