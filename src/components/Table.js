@@ -13,7 +13,6 @@ const Table = ({ sat }) => {
         </thead>
         <tbody>
         {sat.map((data, id)=>{
-      let orbitType = data.orbitType
       return (
          
               <tr key={id}>
