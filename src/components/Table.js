@@ -24,18 +24,7 @@ const Table = ({ sat }) => {
 
           
               )}
-      )})}
-          {/* <Altitude/> */}
-        {/* {sat.map((data, id)=>{
-return (
-    <tr key={id}>
-    <td >{data.name}</td>
-    <td>{data.type}</td>
-    <td>{data.launchDate}</td>  
-    {data.operational? <td>Active</td>: <td>Inactive</td>}
-    </tr>
-        )
-    })} */}
+      )}
         </tbody>
       </table>
   );
